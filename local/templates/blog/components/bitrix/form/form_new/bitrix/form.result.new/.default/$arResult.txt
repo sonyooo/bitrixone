@@ -1,0 +1,831 @@
+
+ 
+12:36:35
+Array
+(
+    [bSimple] => Y
+    [bAdmin] => N
+    [arForm] => Array
+        (
+            [ID] => 2
+            [TIMESTAMP_X] => 30.09.2021 12:24:00
+            [NAME] => иеоп
+            [SID] => SIMPLE_FORM_2
+            [BUTTON] => Сохранить
+            [C_SORT] => 200
+            [FIRST_SITE_ID] => 
+            [IMAGE_ID] => 
+            [USE_CAPTCHA] => N
+            [DESCRIPTION] => 
+            [DESCRIPTION_TYPE] => text
+            [FORM_TEMPLATE] => <?=$FORM->ShowInput('new_field_29967')?>
+            [USE_DEFAULT_TEMPLATE] => Y
+            [SHOW_TEMPLATE] => 
+            [MAIL_EVENT_TYPE] => FORM_FILLING_SIMPLE_FORM_2
+            [SHOW_RESULT_TEMPLATE] => 
+            [PRINT_RESULT_TEMPLATE] => 
+            [EDIT_RESULT_TEMPLATE] => 
+            [FILTER_RESULT_TEMPLATE] => 
+            [TABLE_RESULT_TEMPLATE] => 
+            [USE_RESTRICTIONS] => N
+            [RESTRICT_USER] => 0
+            [RESTRICT_TIME] => 0
+            [RESTRICT_STATUS] => 
+            [STAT_EVENT1] => form
+            [STAT_EVENT2] => 
+            [STAT_EVENT3] => 
+            [LID] => 
+            [VARNAME] => SIMPLE_FORM_2
+            [C_FIELDS] => 0
+            [QUESTIONS] => 1
+            [STATUSES] => 1
+        )
+
+    [arQuestions] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [ID] => 6
+                    [FORM_ID] => 2
+                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                    [ACTIVE] => Y
+                    [TITLE] => Hn
+                    [TITLE_TYPE] => text
+                    [SID] => SIMPLE_QUESTION_941
+                    [C_SORT] => 100
+                    [ADDITIONAL] => N
+                    [REQUIRED] => N
+                    [IN_FILTER] => Y
+                    [IN_RESULTS_TABLE] => Y
+                    [IN_EXCEL_TABLE] => Y
+                    [FIELD_TYPE] => text
+                    [IMAGE_ID] => 
+                    [COMMENTS] => 
+                    [FILTER_TITLE] => Hn
+                    [RESULTS_TABLE_TITLE] => Hn
+                    [VARNAME] => SIMPLE_QUESTION_941
+                )
+
+        )
+
+    [arAnswers] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 6
+                            [FIELD_ID] => 6
+                            [QUESTION_ID] => 6
+                            [TIMESTAMP_X] => 30.09.2021 14:24:39
+                            [MESSAGE] =>  
+                            [VALUE] => 
+                            [FIELD_TYPE] => text
+                            [FIELD_WIDTH] => 0
+                            [FIELD_HEIGHT] => 0
+                            [FIELD_PARAM] => 
+                            [C_SORT] => 0
+                            [ACTIVE] => Y
+                        )
+
+                )
+
+        )
+
+    [arDropDown] => Array
+        (
+        )
+
+    [arMultiSelect] => Array
+        (
+        )
+
+    [WEB_FORM_NAME] => SIMPLE_FORM_2
+    [F_RIGHT] => 30
+    [arrVALUES] => Array
+        (
+        )
+
+    [isFormErrors] => N
+    [isFormNote] => N
+    [isAccessFormParams] => Y
+    [isStatisticIncluded] => N
+    [FORM_HEADER] => <form name="SIMPLE_FORM_2" action="/?sessid=3f7cda58d1d61ef077808c905bfd40c1&amp;WEB_FORM_ID=2&amp;form_text_6=TESTER&amp;web_form_apply=%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="3f7cda58d1d61ef077808c905bfd40c1" /><input type="hidden" name="WEB_FORM_ID" value="2" />
+    [FORM_TITLE] => иеоп
+    [FORM_DESCRIPTION] => 
+    [isFormTitle] => Y
+    [isFormDescription] => N
+    [isFormImage] => N
+    [isUseCaptcha] => 
+    [DATE_FORMAT] => DD.MM.YYYY
+    [REQUIRED_SIGN] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [FORM_FOOTER] => </form>
+    [QUESTIONS] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [CAPTION] => Hn
+                    [IS_HTML_CAPTION] => N
+                    [REQUIRED] => N
+                    [IS_INPUT_CAPTION_IMAGE] => N
+                    [HTML_CODE] => <input type="text"  class="inputtext"  name="form_text_6" value="">
+                    [STRUCTURE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 6
+                                    [FIELD_ID] => 6
+                                    [QUESTION_ID] => 6
+                                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                                    [MESSAGE] =>  
+                                    [VALUE] => 
+                                    [FIELD_TYPE] => text
+                                    [FIELD_WIDTH] => 0
+                                    [FIELD_HEIGHT] => 0
+                                    [FIELD_PARAM] => 
+                                    [C_SORT] => 0
+                                    [ACTIVE] => Y
+                                )
+
+                        )
+
+                    [VALUE] => 
+                )
+
+        )
+
+    [SUBMIT_BUTTON] => <input  type="submit" name="web_form_submit" value="Сохранить" />
+    [APPLY_BUTTON] => <input type="hidden" name="web_form_apply" value="Y" /><input type="submit" name="web_form_apply" value="Применить" />
+    [RESET_BUTTON] => <input type="reset" value="Сбросить" />
+    [REQUIRED_STAR] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [CAPTCHA_IMAGE] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" />
+    [CAPTCHA_FIELD] => <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+    [CAPTCHA] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" /><br /><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+)
+
+ 
+-------------------------
+ 
+12:45:02
+Array
+(
+    [bSimple] => Y
+    [bAdmin] => N
+    [arForm] => Array
+        (
+            [ID] => 2
+            [TIMESTAMP_X] => 30.09.2021 12:24:00
+            [NAME] => иеоп
+            [SID] => SIMPLE_FORM_2
+            [BUTTON] => Сохранить
+            [C_SORT] => 200
+            [FIRST_SITE_ID] => 
+            [IMAGE_ID] => 
+            [USE_CAPTCHA] => N
+            [DESCRIPTION] => 
+            [DESCRIPTION_TYPE] => text
+            [FORM_TEMPLATE] => <?=$FORM->ShowInput('new_field_29967')?>
+            [USE_DEFAULT_TEMPLATE] => Y
+            [SHOW_TEMPLATE] => 
+            [MAIL_EVENT_TYPE] => FORM_FILLING_SIMPLE_FORM_2
+            [SHOW_RESULT_TEMPLATE] => 
+            [PRINT_RESULT_TEMPLATE] => 
+            [EDIT_RESULT_TEMPLATE] => 
+            [FILTER_RESULT_TEMPLATE] => 
+            [TABLE_RESULT_TEMPLATE] => 
+            [USE_RESTRICTIONS] => N
+            [RESTRICT_USER] => 0
+            [RESTRICT_TIME] => 0
+            [RESTRICT_STATUS] => 
+            [STAT_EVENT1] => form
+            [STAT_EVENT2] => 
+            [STAT_EVENT3] => 
+            [LID] => 
+            [VARNAME] => SIMPLE_FORM_2
+            [C_FIELDS] => 0
+            [QUESTIONS] => 1
+            [STATUSES] => 1
+        )
+
+    [arQuestions] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [ID] => 6
+                    [FORM_ID] => 2
+                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                    [ACTIVE] => Y
+                    [TITLE] => Hn
+                    [TITLE_TYPE] => text
+                    [SID] => SIMPLE_QUESTION_941
+                    [C_SORT] => 100
+                    [ADDITIONAL] => N
+                    [REQUIRED] => N
+                    [IN_FILTER] => Y
+                    [IN_RESULTS_TABLE] => Y
+                    [IN_EXCEL_TABLE] => Y
+                    [FIELD_TYPE] => text
+                    [IMAGE_ID] => 
+                    [COMMENTS] => 
+                    [FILTER_TITLE] => Hn
+                    [RESULTS_TABLE_TITLE] => Hn
+                    [VARNAME] => SIMPLE_QUESTION_941
+                )
+
+        )
+
+    [arAnswers] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 6
+                            [FIELD_ID] => 6
+                            [QUESTION_ID] => 6
+                            [TIMESTAMP_X] => 30.09.2021 14:24:39
+                            [MESSAGE] =>  
+                            [VALUE] => 
+                            [FIELD_TYPE] => text
+                            [FIELD_WIDTH] => 0
+                            [FIELD_HEIGHT] => 0
+                            [FIELD_PARAM] => 
+                            [C_SORT] => 0
+                            [ACTIVE] => Y
+                        )
+
+                )
+
+        )
+
+    [arDropDown] => Array
+        (
+        )
+
+    [arMultiSelect] => Array
+        (
+        )
+
+    [WEB_FORM_NAME] => SIMPLE_FORM_2
+    [F_RIGHT] => 30
+    [arrVALUES] => Array
+        (
+        )
+
+    [isFormErrors] => N
+    [isFormNote] => N
+    [isAccessFormParams] => Y
+    [isStatisticIncluded] => N
+    [FORM_HEADER] => <form name="SIMPLE_FORM_2" action="/produktsiya/novaya-stranitsa.php?clear_cache=Y" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="3f7cda58d1d61ef077808c905bfd40c1" /><input type="hidden" name="WEB_FORM_ID" value="2" />
+    [FORM_TITLE] => иеоп
+    [FORM_DESCRIPTION] => 
+    [isFormTitle] => Y
+    [isFormDescription] => N
+    [isFormImage] => N
+    [isUseCaptcha] => 
+    [DATE_FORMAT] => DD.MM.YYYY
+    [REQUIRED_SIGN] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [FORM_FOOTER] => </form>
+    [QUESTIONS] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [CAPTION] => Hn
+                    [IS_HTML_CAPTION] => N
+                    [REQUIRED] => N
+                    [IS_INPUT_CAPTION_IMAGE] => N
+                    [HTML_CODE] => <input type="text"  class="inputtext"  name="form_text_6" value="">
+                    [STRUCTURE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 6
+                                    [FIELD_ID] => 6
+                                    [QUESTION_ID] => 6
+                                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                                    [MESSAGE] =>  
+                                    [VALUE] => 
+                                    [FIELD_TYPE] => text
+                                    [FIELD_WIDTH] => 0
+                                    [FIELD_HEIGHT] => 0
+                                    [FIELD_PARAM] => 
+                                    [C_SORT] => 0
+                                    [ACTIVE] => Y
+                                )
+
+                        )
+
+                    [VALUE] => 
+                )
+
+        )
+
+    [SUBMIT_BUTTON] => <input  type="submit" name="web_form_submit" value="Сохранить" />
+    [APPLY_BUTTON] => <input type="hidden" name="web_form_apply" value="Y" /><input type="submit" name="web_form_apply" value="Применить" />
+    [RESET_BUTTON] => <input type="reset" value="Сбросить" />
+    [REQUIRED_STAR] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [CAPTCHA_IMAGE] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" />
+    [CAPTCHA_FIELD] => <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+    [CAPTCHA] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" /><br /><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+)
+
+ 
+-------------------------
+ 
+12:45:51
+Array
+(
+    [bSimple] => Y
+    [bAdmin] => N
+    [arForm] => Array
+        (
+            [ID] => 2
+            [TIMESTAMP_X] => 30.09.2021 12:24:00
+            [NAME] => иеоп
+            [SID] => SIMPLE_FORM_2
+            [BUTTON] => Сохранить
+            [C_SORT] => 200
+            [FIRST_SITE_ID] => 
+            [IMAGE_ID] => 
+            [USE_CAPTCHA] => N
+            [DESCRIPTION] => 
+            [DESCRIPTION_TYPE] => text
+            [FORM_TEMPLATE] => <?=$FORM->ShowInput('new_field_29967')?>
+            [USE_DEFAULT_TEMPLATE] => Y
+            [SHOW_TEMPLATE] => 
+            [MAIL_EVENT_TYPE] => FORM_FILLING_SIMPLE_FORM_2
+            [SHOW_RESULT_TEMPLATE] => 
+            [PRINT_RESULT_TEMPLATE] => 
+            [EDIT_RESULT_TEMPLATE] => 
+            [FILTER_RESULT_TEMPLATE] => 
+            [TABLE_RESULT_TEMPLATE] => 
+            [USE_RESTRICTIONS] => N
+            [RESTRICT_USER] => 0
+            [RESTRICT_TIME] => 0
+            [RESTRICT_STATUS] => 
+            [STAT_EVENT1] => form
+            [STAT_EVENT2] => 
+            [STAT_EVENT3] => 
+            [LID] => 
+            [VARNAME] => SIMPLE_FORM_2
+            [C_FIELDS] => 0
+            [QUESTIONS] => 1
+            [STATUSES] => 1
+        )
+
+    [arQuestions] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [ID] => 6
+                    [FORM_ID] => 2
+                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                    [ACTIVE] => Y
+                    [TITLE] => Hn
+                    [TITLE_TYPE] => text
+                    [SID] => SIMPLE_QUESTION_941
+                    [C_SORT] => 100
+                    [ADDITIONAL] => N
+                    [REQUIRED] => N
+                    [IN_FILTER] => Y
+                    [IN_RESULTS_TABLE] => Y
+                    [IN_EXCEL_TABLE] => Y
+                    [FIELD_TYPE] => text
+                    [IMAGE_ID] => 
+                    [COMMENTS] => 
+                    [FILTER_TITLE] => Hn
+                    [RESULTS_TABLE_TITLE] => Hn
+                    [VARNAME] => SIMPLE_QUESTION_941
+                )
+
+        )
+
+    [arAnswers] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 6
+                            [FIELD_ID] => 6
+                            [QUESTION_ID] => 6
+                            [TIMESTAMP_X] => 30.09.2021 14:24:39
+                            [MESSAGE] =>  
+                            [VALUE] => 
+                            [FIELD_TYPE] => text
+                            [FIELD_WIDTH] => 0
+                            [FIELD_HEIGHT] => 0
+                            [FIELD_PARAM] => 
+                            [C_SORT] => 0
+                            [ACTIVE] => Y
+                        )
+
+                )
+
+        )
+
+    [arDropDown] => Array
+        (
+        )
+
+    [arMultiSelect] => Array
+        (
+        )
+
+    [WEB_FORM_NAME] => SIMPLE_FORM_2
+    [F_RIGHT] => 30
+    [arrVALUES] => Array
+        (
+        )
+
+    [isFormErrors] => N
+    [isFormNote] => N
+    [isAccessFormParams] => Y
+    [isStatisticIncluded] => N
+    [FORM_HEADER] => <form name="SIMPLE_FORM_2" action="/produktsiya/novaya-stranitsa.php?clear_cache=Y&amp;WEB_FORM_ID=2" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="3f7cda58d1d61ef077808c905bfd40c1" /><input type="hidden" name="WEB_FORM_ID" value="2" />
+    [FORM_TITLE] => иеоп
+    [FORM_DESCRIPTION] => 
+    [isFormTitle] => Y
+    [isFormDescription] => N
+    [isFormImage] => N
+    [isUseCaptcha] => 
+    [DATE_FORMAT] => DD.MM.YYYY
+    [REQUIRED_SIGN] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [FORM_FOOTER] => </form>
+    [QUESTIONS] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [CAPTION] => Hn
+                    [IS_HTML_CAPTION] => N
+                    [REQUIRED] => N
+                    [IS_INPUT_CAPTION_IMAGE] => N
+                    [HTML_CODE] => <input type="text"  class="inputtext"  name="form_text_6" value="">
+                    [STRUCTURE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 6
+                                    [FIELD_ID] => 6
+                                    [QUESTION_ID] => 6
+                                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                                    [MESSAGE] =>  
+                                    [VALUE] => 
+                                    [FIELD_TYPE] => text
+                                    [FIELD_WIDTH] => 0
+                                    [FIELD_HEIGHT] => 0
+                                    [FIELD_PARAM] => 
+                                    [C_SORT] => 0
+                                    [ACTIVE] => Y
+                                )
+
+                        )
+
+                    [VALUE] => 
+                )
+
+        )
+
+    [SUBMIT_BUTTON] => <input  type="submit" name="web_form_submit" value="Сохранить" />
+    [APPLY_BUTTON] => <input type="hidden" name="web_form_apply" value="Y" /><input type="submit" name="web_form_apply" value="Применить" />
+    [RESET_BUTTON] => <input type="reset" value="Сбросить" />
+    [REQUIRED_STAR] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [CAPTCHA_IMAGE] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" />
+    [CAPTCHA_FIELD] => <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+    [CAPTCHA] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" /><br /><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+)
+
+ 
+-------------------------
+ 
+12:47:38
+Array
+(
+    [bSimple] => Y
+    [bAdmin] => N
+    [arForm] => Array
+        (
+            [ID] => 2
+            [TIMESTAMP_X] => 30.09.2021 12:24:00
+            [NAME] => иеоп
+            [SID] => SIMPLE_FORM_2
+            [BUTTON] => Сохранить
+            [C_SORT] => 200
+            [FIRST_SITE_ID] => 
+            [IMAGE_ID] => 
+            [USE_CAPTCHA] => N
+            [DESCRIPTION] => 
+            [DESCRIPTION_TYPE] => text
+            [FORM_TEMPLATE] => <?=$FORM->ShowInput('new_field_29967')?>
+            [USE_DEFAULT_TEMPLATE] => Y
+            [SHOW_TEMPLATE] => 
+            [MAIL_EVENT_TYPE] => FORM_FILLING_SIMPLE_FORM_2
+            [SHOW_RESULT_TEMPLATE] => 
+            [PRINT_RESULT_TEMPLATE] => 
+            [EDIT_RESULT_TEMPLATE] => 
+            [FILTER_RESULT_TEMPLATE] => 
+            [TABLE_RESULT_TEMPLATE] => 
+            [USE_RESTRICTIONS] => N
+            [RESTRICT_USER] => 0
+            [RESTRICT_TIME] => 0
+            [RESTRICT_STATUS] => 
+            [STAT_EVENT1] => form
+            [STAT_EVENT2] => 
+            [STAT_EVENT3] => 
+            [LID] => 
+            [VARNAME] => SIMPLE_FORM_2
+            [C_FIELDS] => 0
+            [QUESTIONS] => 1
+            [STATUSES] => 1
+        )
+
+    [arQuestions] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [ID] => 6
+                    [FORM_ID] => 2
+                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                    [ACTIVE] => Y
+                    [TITLE] => Hn
+                    [TITLE_TYPE] => text
+                    [SID] => SIMPLE_QUESTION_941
+                    [C_SORT] => 100
+                    [ADDITIONAL] => N
+                    [REQUIRED] => N
+                    [IN_FILTER] => Y
+                    [IN_RESULTS_TABLE] => Y
+                    [IN_EXCEL_TABLE] => Y
+                    [FIELD_TYPE] => text
+                    [IMAGE_ID] => 
+                    [COMMENTS] => 
+                    [FILTER_TITLE] => Hn
+                    [RESULTS_TABLE_TITLE] => Hn
+                    [VARNAME] => SIMPLE_QUESTION_941
+                )
+
+        )
+
+    [arAnswers] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 6
+                            [FIELD_ID] => 6
+                            [QUESTION_ID] => 6
+                            [TIMESTAMP_X] => 30.09.2021 14:24:39
+                            [MESSAGE] =>  
+                            [VALUE] => 
+                            [FIELD_TYPE] => text
+                            [FIELD_WIDTH] => 0
+                            [FIELD_HEIGHT] => 0
+                            [FIELD_PARAM] => 
+                            [C_SORT] => 0
+                            [ACTIVE] => Y
+                        )
+
+                )
+
+        )
+
+    [arDropDown] => Array
+        (
+        )
+
+    [arMultiSelect] => Array
+        (
+        )
+
+    [WEB_FORM_NAME] => SIMPLE_FORM_2
+    [F_RIGHT] => 30
+    [arrVALUES] => Array
+        (
+        )
+
+    [isFormErrors] => N
+    [isFormNote] => N
+    [isAccessFormParams] => Y
+    [isStatisticIncluded] => N
+    [FORM_HEADER] => <form name="SIMPLE_FORM_2" action="/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="3f7cda58d1d61ef077808c905bfd40c1" /><input type="hidden" name="WEB_FORM_ID" value="2" />
+    [FORM_TITLE] => иеоп
+    [FORM_DESCRIPTION] => 
+    [isFormTitle] => Y
+    [isFormDescription] => N
+    [isFormImage] => N
+    [isUseCaptcha] => 
+    [DATE_FORMAT] => DD.MM.YYYY
+    [REQUIRED_SIGN] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [FORM_FOOTER] => </form>
+    [QUESTIONS] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [CAPTION] => Hn
+                    [IS_HTML_CAPTION] => N
+                    [REQUIRED] => N
+                    [IS_INPUT_CAPTION_IMAGE] => N
+                    [HTML_CODE] => <input type="text"  class="inputtext"  name="form_text_6" value="">
+                    [STRUCTURE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 6
+                                    [FIELD_ID] => 6
+                                    [QUESTION_ID] => 6
+                                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                                    [MESSAGE] =>  
+                                    [VALUE] => 
+                                    [FIELD_TYPE] => text
+                                    [FIELD_WIDTH] => 0
+                                    [FIELD_HEIGHT] => 0
+                                    [FIELD_PARAM] => 
+                                    [C_SORT] => 0
+                                    [ACTIVE] => Y
+                                )
+
+                        )
+
+                    [VALUE] => 
+                )
+
+        )
+
+    [SUBMIT_BUTTON] => <input  type="submit" name="web_form_submit" value="Сохранить" />
+    [APPLY_BUTTON] => <input type="hidden" name="web_form_apply" value="Y" /><input type="submit" name="web_form_apply" value="Применить" />
+    [RESET_BUTTON] => <input type="reset" value="Сбросить" />
+    [REQUIRED_STAR] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [CAPTCHA_IMAGE] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" />
+    [CAPTCHA_FIELD] => <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+    [CAPTCHA] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" /><br /><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+)
+
+ 
+-------------------------
+ 
+12:47:48
+Array
+(
+    [bSimple] => Y
+    [bAdmin] => N
+    [arForm] => Array
+        (
+            [ID] => 2
+            [TIMESTAMP_X] => 30.09.2021 12:24:00
+            [NAME] => иеоп
+            [SID] => SIMPLE_FORM_2
+            [BUTTON] => Сохранить
+            [C_SORT] => 200
+            [FIRST_SITE_ID] => 
+            [IMAGE_ID] => 
+            [USE_CAPTCHA] => N
+            [DESCRIPTION] => 
+            [DESCRIPTION_TYPE] => text
+            [FORM_TEMPLATE] => <?=$FORM->ShowInput('new_field_29967')?>
+            [USE_DEFAULT_TEMPLATE] => Y
+            [SHOW_TEMPLATE] => 
+            [MAIL_EVENT_TYPE] => FORM_FILLING_SIMPLE_FORM_2
+            [SHOW_RESULT_TEMPLATE] => 
+            [PRINT_RESULT_TEMPLATE] => 
+            [EDIT_RESULT_TEMPLATE] => 
+            [FILTER_RESULT_TEMPLATE] => 
+            [TABLE_RESULT_TEMPLATE] => 
+            [USE_RESTRICTIONS] => N
+            [RESTRICT_USER] => 0
+            [RESTRICT_TIME] => 0
+            [RESTRICT_STATUS] => 
+            [STAT_EVENT1] => form
+            [STAT_EVENT2] => 
+            [STAT_EVENT3] => 
+            [LID] => 
+            [VARNAME] => SIMPLE_FORM_2
+            [C_FIELDS] => 0
+            [QUESTIONS] => 1
+            [STATUSES] => 1
+        )
+
+    [arQuestions] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [ID] => 6
+                    [FORM_ID] => 2
+                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                    [ACTIVE] => Y
+                    [TITLE] => Hn
+                    [TITLE_TYPE] => text
+                    [SID] => SIMPLE_QUESTION_941
+                    [C_SORT] => 100
+                    [ADDITIONAL] => N
+                    [REQUIRED] => N
+                    [IN_FILTER] => Y
+                    [IN_RESULTS_TABLE] => Y
+                    [IN_EXCEL_TABLE] => Y
+                    [FIELD_TYPE] => text
+                    [IMAGE_ID] => 
+                    [COMMENTS] => 
+                    [FILTER_TITLE] => Hn
+                    [RESULTS_TABLE_TITLE] => Hn
+                    [VARNAME] => SIMPLE_QUESTION_941
+                )
+
+        )
+
+    [arAnswers] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 6
+                            [FIELD_ID] => 6
+                            [QUESTION_ID] => 6
+                            [TIMESTAMP_X] => 30.09.2021 14:24:39
+                            [MESSAGE] =>  
+                            [VALUE] => 
+                            [FIELD_TYPE] => text
+                            [FIELD_WIDTH] => 0
+                            [FIELD_HEIGHT] => 0
+                            [FIELD_PARAM] => 
+                            [C_SORT] => 0
+                            [ACTIVE] => Y
+                        )
+
+                )
+
+        )
+
+    [arDropDown] => Array
+        (
+        )
+
+    [arMultiSelect] => Array
+        (
+        )
+
+    [WEB_FORM_NAME] => SIMPLE_FORM_2
+    [F_RIGHT] => 30
+    [arrVALUES] => Array
+        (
+        )
+
+    [isFormErrors] => N
+    [isFormNote] => N
+    [isAccessFormParams] => Y
+    [isStatisticIncluded] => N
+    [FORM_HEADER] => <form name="SIMPLE_FORM_2" action="/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="3f7cda58d1d61ef077808c905bfd40c1" /><input type="hidden" name="WEB_FORM_ID" value="2" />
+    [FORM_TITLE] => иеоп
+    [FORM_DESCRIPTION] => 
+    [isFormTitle] => Y
+    [isFormDescription] => N
+    [isFormImage] => N
+    [isUseCaptcha] => 
+    [DATE_FORMAT] => DD.MM.YYYY
+    [REQUIRED_SIGN] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [FORM_FOOTER] => </form>
+    [QUESTIONS] => Array
+        (
+            [SIMPLE_QUESTION_941] => Array
+                (
+                    [CAPTION] => Hn
+                    [IS_HTML_CAPTION] => N
+                    [REQUIRED] => N
+                    [IS_INPUT_CAPTION_IMAGE] => N
+                    [HTML_CODE] => <input type="text"  class="inputtext"  name="form_text_6" value="">
+                    [STRUCTURE] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 6
+                                    [FIELD_ID] => 6
+                                    [QUESTION_ID] => 6
+                                    [TIMESTAMP_X] => 30.09.2021 14:24:39
+                                    [MESSAGE] =>  
+                                    [VALUE] => 
+                                    [FIELD_TYPE] => text
+                                    [FIELD_WIDTH] => 0
+                                    [FIELD_HEIGHT] => 0
+                                    [FIELD_PARAM] => 
+                                    [C_SORT] => 0
+                                    [ACTIVE] => Y
+                                )
+
+                        )
+
+                    [VALUE] => 
+                )
+
+        )
+
+    [SUBMIT_BUTTON] => <input  type="submit" name="web_form_submit" value="Сохранить" />
+    [APPLY_BUTTON] => <input type="hidden" name="web_form_apply" value="Y" /><input type="submit" name="web_form_apply" value="Применить" />
+    [RESET_BUTTON] => <input type="reset" value="Сбросить" />
+    [REQUIRED_STAR] => <font color='red'><span class='form-required starrequired'>*</span></font>
+    [CAPTCHA_IMAGE] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" />
+    [CAPTCHA_FIELD] => <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+    [CAPTCHA] => <input type="hidden" name="captcha_sid" value="" /><img src="/bitrix/tools/captcha.php?captcha_sid=" width="180" height="40" /><br /><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" />
+)
+
+ 
+-------------------------
